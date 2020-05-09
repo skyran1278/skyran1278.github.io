@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>You Ran Nai</h1>
+        <p>來說個故事吧</p>
       </header>
     </div>
   );
