@@ -13,10 +13,31 @@ function App() {
       <div>
         <h2>CAREER SUMMARY</h2>
         <p>I am a web developer and a structure engineer with more than three years of experience working at Elements Structure. Combines structural engineering domain knowledge with web development to add product value.</p>
+      </div>
+      <div>
+        <h2>SKILL SUMMARY</h2>
         <ul>
-          <li>Frontend: React, Redux</li>
-          <li>Backend: Node, Express, MongoDB</li>
-          <li>DevOps: Docker, CI</li>
+          <li>
+            Frontend
+            <ul>
+              <li>Proficient: React, Redux</li>
+              <li>Intermediate: Sass, Webpack, Styled Component, CSS Module, Electron</li>
+            </ul>
+          </li>
+          <li>
+            Backend
+            <ul>
+              <li>Proficient: Node.js, Express.js, Restful API, MongoDB, Mongoose, Nginx, Jest</li>
+              <li>Intermediate: PM2, MySQL, Gulp</li>
+            </ul>
+          </li>
+          <li>
+            DevOps
+            <ul>
+              <li>Proficient: Docker, Linux, CI/CD</li>
+              <li>Intermediate: Azure, GCP</li>
+            </ul>
+          </li>
         </ul>
       </div>
       <div>
@@ -73,10 +94,6 @@ function App() {
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
         </ul>
-      </div>
-      <div>
-        <h2>Skills</h2>
-        <p>Full-Stack Development  React.js  Node.js  MongoDB  docker  RESTful WebServices  JavaScript  python  Git  Matlab</p>
       </div>
     </div>
   );
