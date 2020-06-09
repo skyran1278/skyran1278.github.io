@@ -21,14 +21,14 @@ function App() {
             Frontend
             <ul>
               <li>Proficient: React, Redux</li>
-              <li>Intermediate: Sass, Webpack, Styled Component, CSS Module, Electron</li>
+              <li>Intermediate: Styled Component, CSS Module, Webpack, Electron</li>
             </ul>
           </li>
           <li>
             Backend
             <ul>
               <li>Proficient: Node.js, Express.js, Restful API, MongoDB, Mongoose, Nginx, Jest</li>
-              <li>Intermediate: PM2, MySQL, Gulp</li>
+              <li>Intermediate: Firebase, MySQL, PM2, Gulp</li>
             </ul>
           </li>
           <li>
