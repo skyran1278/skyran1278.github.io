@@ -11,57 +11,73 @@ function App() {
         <p>skyran1278@gmail.com</p>
       </div>
       <div>
-        <h2>CAREER SUMMARY</h2>
-        <p>I am a web developer and a structure engineer with more than three years of experience working at Elements Structure. Combines structural engineering domain knowledge with web development to add product value.</p>
+        <h2>SUMMARY</h2>
+        <p>
+          Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.
+          Experienced with building front-end and back-end system architectures from ground-zero.
+          Enthusiasm in coding, web development knowledge all from self-learning.
+        </p>
       </div>
       <div>
-        <h2>SKILL SUMMARY</h2>
-        <ul>
-          <li>
-            Frontend
-            <ul>
-              <li>Proficient: React, Redux</li>
-              <li>Intermediate: Styled Component, CSS Module, Webpack, Electron</li>
-            </ul>
-          </li>
-          <li>
-            Backend
-            <ul>
-              <li>Proficient: Node.js, Express.js, Restful API, MongoDB, Mongoose, Nginx, Jest</li>
-              <li>Intermediate: Firebase, MySQL, PM2, Gulp</li>
-            </ul>
-          </li>
-          <li>
-            DevOps
-            <ul>
-              <li>Proficient: Docker, Linux, CI/CD</li>
-              <li>Intermediate: Azure, GCP</li>
-            </ul>
-          </li>
-        </ul>
+        <h2>SKILLS</h2>
+        <p>
+          <ul>
+            <li>
+              Frontend
+              <ul>
+                <li>Proficient: React, Redux</li>
+                <li>Intermediate: Styled Component, CSS Module, Webpack, Electron</li>
+              </ul>
+            </li>
+            <li>
+              Backend
+              <ul>
+                <li>Proficient: Node.js, Express.js, Restful API, MongoDB, Mongoose, Nginx, Jest, functional programming</li>
+                <li>Intermediate: Firebase, MySQL, PM2, Gulp</li>
+              </ul>
+            </li>
+            <li>
+              DevOps
+              <ul>
+                <li>Proficient: Docker, Linux, CI/CD</li>
+                <li>Intermediate: Azure, GCP</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
       </div>
       <div>
         <h2>WORK EXPERIENCES</h2>
         <h3>Full Stack Engineer</h3>
-        <p>Elements Structure</p>
+        <p>
+          Elements Structure Inc.
+          (
+          <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
+          )
+        </p>
         <p>Aug 2019 – Present (11 mos)</p>
         <ul>
           <li>Used React and Redux for internal management of systems, including account management and reporting systems.</li>
           <li>Built RESTful APIs for Node/Express and MongoDB/Mongoose.</li>
           <li>Developed notification and backup services via Node.js.</li>
-          <li>Deploy servers using Docker and use Nginx as an HTTP and reverse proxy server.</li>
+          <li>Deployed servers using Docker and used Nginx as an HTTP and reverse proxy server.</li>
           <li>Maintained a CI/CD system with Circle and GitHub flow.</li>
         </ul>
-        <h3>Full Stack Engineer</h3>
-        <p>Elements Structure</p>
+        <h3>Full Stack Engineer Inc.</h3>
+        <p>
+          Elements Structure Inc.
+          (
+          <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
+          )
+        </p>
         <p>Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
         <ul>
-          <li>Developed as an on-site management system using React and Redux.</li>
-          <li>Use Firebase to address Authentication, Database, Storage, Hosting, and Functions.</li>
+          <li>Developed an on-site management system using React and Redux.</li>
+          <li>Used Firebase to address Authentication, Database, Storage, Hosting, and Functions.</li>
         </ul>
-        <p>Writing programs to aid engineers in designing and analyzing structure engineering.</p>
+        <p>Wrote programs to aid engineers in designing and analyzing structure engineering.</p>
         <ul>
-          <li>EtabsScan: Check the structure and analyze whether it is reasonable.</li>
+          <li>EtabsScan: Checked the structure and analyze whether it is reasonable.</li>
           <li>LapLength: Optimizing the lap length of reinforcement.</li>
           <li>TimeSheetManageSystem: Project cost statistics system.</li>
           <li>BeamZValue: Steel structure members are optimized according to the Z value.</li>
@@ -80,9 +96,9 @@ function App() {
         <p>2017 – 2019</p>
         <p>Thesis - &quot;Feasibility of Beam Reinforcement Optimization for Practical Application&quot;</p>
         <ul>
-          <li>Developing an Algorithm to Optimize Reinforcement.</li>
+          <li>Developed an Algorithm to Optimize Reinforcement.</li>
           <li>Nonlinear dynamic analysis.</li>
-          <li>Developing a GUI which written in Python.</li>
+          <li>Developed a GUI which written in Python.</li>
         </ul>
         <h3>National Taiwan University</h3>
         <p>Bachelor&#39;s degree, Civil Engineering</p>
@@ -90,7 +106,7 @@ function App() {
         <p>Related courses</p>
         <ul>
           <li>EE 3011 Data Structure and Programming</li>
-          <li>CSX 2003 Website Database Programming (Using Azure, Express, and Bootstrap to build a website.)</li>
+          <li>CSX 2003 Website Database Programming (Used Azure, Express, and Bootstrap to build a website.)</li>
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
         </ul>
