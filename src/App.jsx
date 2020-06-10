@@ -22,40 +22,21 @@ function App() {
         <h2>SKILLS</h2>
         <p>
           <ul>
-            <li>
-              Frontend
-              <ul>
-                <li>Proficient: React, Redux</li>
-                <li>Intermediate: Styled Component, CSS Module, Webpack, Electron</li>
-              </ul>
-            </li>
-            <li>
-              Backend
-              <ul>
-                <li>Proficient: Node.js, Express.js, Restful API, MongoDB, Mongoose, Nginx, Jest, functional programming</li>
-                <li>Intermediate: Firebase, MySQL, PM2, Gulp</li>
-              </ul>
-            </li>
-            <li>
-              DevOps
-              <ul>
-                <li>Proficient: Docker, Linux, CI/CD</li>
-                <li>Intermediate: Azure, GCP</li>
-              </ul>
-            </li>
+            <li>Proficient: React, Redux, Node.js, Express.js, Jest, Restful API, MongoDB, Mongoose, Nginx, Docker, Linux, CI/CD</li>
+            <li>Intermediate: Azure, Firebase, MySQL</li>
           </ul>
         </p>
       </div>
       <div>
         <h2>WORK EXPERIENCES</h2>
-        <h3>Full Stack Engineer</h3>
-        <p>
+        <h3>
           Elements Structure Inc.
           (
           <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
           )
-        </p>
-        <p>Aug 2019 – Present (11 mos)</p>
+        </h3>
+        <p>Full Stack Engineer (Full-time)</p>
+        <p>Aug 2019 – now (11 mos)</p>
         <ul>
           <li>Used React and Redux for internal management of systems, including account management and reporting systems.</li>
           <li>Built RESTful APIs for Node/Express and MongoDB/Mongoose.</li>
@@ -63,13 +44,7 @@ function App() {
           <li>Deployed servers using Docker and used Nginx as an HTTP and reverse proxy server.</li>
           <li>Maintained a CI/CD system with Circle and GitHub flow.</li>
         </ul>
-        <h3>Full Stack Engineer Inc.</h3>
-        <p>
-          Elements Structure Inc.
-          (
-          <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
-          )
-        </p>
+        <p>Full Stack Engineer (Internship)</p>
         <p>Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
         <ul>
           <li>Developed an on-site management system using React and Redux.</li>
