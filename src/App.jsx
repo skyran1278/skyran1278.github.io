@@ -15,7 +15,7 @@ function App() {
         <h2>Summary</h2>
         <p>
           <ul>
-            <li>Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.</li>
+            <li>Combines structural engineering domain knowledge with more than three years of practical experience in full-stack web development.</li>
             <li>Experienced with designing frontend and backend system architectures from ground-zero.</li>
             <li>Hunger for web development knowledge all comes from self-learning.</li>
           </ul>
@@ -64,17 +64,17 @@ function App() {
             <li>Worked with RCAD Inc. to develop an on-site management system.</li>
             <li>Built serverless applications using node.js.</li>
             <li>Addressed authentication via OAuth 2.0.</li>
-            <li>Stored and synced data with NoSQL cloud database.</li>
+            <li>Stored and synced data with the NoSQL cloud database.</li>
             <li>Developed the UI/UX using React and Redux.</li>
           </ul>
         </p>
-        <p>Structural engineering domain know-how: writing tools to aid engineers in analyzing and designing construction engineering.</p>
+        <p>Structural engineering domain know-how: writing applications to aid engineers in analyzing and designing construction engineering.</p>
         <ul>
           <li>Developed a program to monitor structured models and analyze whether they are reasonable.</li>
           <li>Optimized for the lap length of reinforcement to reduce construction reinforcement costs.</li>
           <li>Optimizes steel structure members according to their Z values. (Using k-means and hierarchical-clustering algorithm.)</li>
-          <li>Designing SRC according to the PMM Curve. (For analysis software far-reaching this area, we developed an assist program which used Newton&apos;s method and method of slide algorithm.)</li>
-          <li>Check whether the design reinforcement meets the RC specification. (Worked with RCAD Inc..)</li>
+          <li>Designing SRC according to the PMM Curve. (For analysis software far-reaching this area, we developed an assistance program which used Newton&apos;s method and method of slide algorithm.)</li>
+          <li>Check whether the designed reinforcement meets the RC specification. (Worked with RCAD Inc..)</li>
           <li>Check whether the angle radius meets the specifications. (Optimized speed to 400 times faster than the previous version.)</li>
         </ul>
       </div>
@@ -86,8 +86,8 @@ function App() {
         <p>Thesis - &quot;Feasibility of Beam Reinforcement Optimization for Practical Application&quot;</p>
         <ul>
           <li>Developed an algorithm to optimize beam reinforcement.</li>
-          <li>Developed a GUI which written in python for engineering easy to use.</li>
-          <li>Nonlinear timehistory analysis.</li>
+          <li>Developed a GUI written in Python for easy engineering use.</li>
+          <li>Nonlinear time-history analysis.</li>
         </ul>
         <h3>National Taiwan University</h3>
         <p>Bachelor&#39;s degree, Civil Engineering</p>
@@ -98,7 +98,7 @@ function App() {
           <li>
             <a target="_blank" rel="noopener noreferrer" href="http://csx.ntu.edu.tw/demo_105-2/index.html">CSX 2003 Website Database Programming</a>
             {' '}
-            (Used Azure, Node.js, Express.js to build a website and get Gold Medal.)
+            (Used Azure, Node.js, Express.js to build a website and receive the Gold Medal.)
           </li>
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
