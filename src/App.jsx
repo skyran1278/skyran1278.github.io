@@ -6,29 +6,43 @@ function App() {
     <div className="wrapper">
       <div>
         <h1>You-Ran Nai</h1>
+
         <p>New Taipei City, Taiwan</p>
         <a href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
-        <p>skyran1278@gmail.com</p>
-      </div>
-      <div>
-        <h2>SUMMARY</h2>
         <p>
-          Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.
-          Experienced with building front-end and back-end system architectures from ground-zero.
-          Enthusiasm in coding, web development knowledge all from self-learning.
+          <i className="material-icons">mail</i>
+          &nbsp;skyran1278@gmail.com
         </p>
       </div>
       <div>
-        <h2>SKILLS</h2>
+        <h2>Summary</h2>
+        <p>
+          Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.
+          Experienced with building front-end and back-end system architectures from ground-zero.
+          Enthusiasm in coding and web development knowledge all come from self-learning.
+        </p>
+      </div>
+      <div>
+        <h2>Skills</h2>
         <p>
           <ul>
-            <li>Proficient: React, Redux, Node.js, Express.js, Jest, Restful API, MongoDB, Mongoose, Nginx, Docker, Linux, CI/CD</li>
-            <li>Intermediate: Azure, Firebase, MySQL</li>
+            <li>
+              Proficient:
+              <ul>
+                <li>React, Redux</li>
+                <li>Node.js, Express.js, Jest, Restful API, MongoDB, Mongoose, Nginx</li>
+                <li>Docker, Linux, CI/CD</li>
+              </ul>
+            </li>
+            <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
           </ul>
         </p>
       </div>
       <div>
-        <h2>WORK EXPERIENCES</h2>
+        <h2>
+          <i className="material-icons">computer</i>
+          &nbsp;Experiences
+        </h2>
         <h3>
           Elements Structure Inc.
           (
@@ -38,8 +52,8 @@ function App() {
         <p>Full Stack Engineer (Full-time)</p>
         <p>Aug 2019 – now (11 mos)</p>
         <ul>
-          <li>Used React and Redux for internal management of systems, including account management and reporting systems.</li>
-          <li>Built RESTful APIs for Node/Express and MongoDB/Mongoose.</li>
+          <li>Used React and Redux for building internal management of systems, including account management and reporting systems.</li>
+          <li>Built RESTful APIs using Node/Express and MongoDB/Mongoose.</li>
           <li>Developed notification and backup services via Node.js.</li>
           <li>Deployed servers using Docker and used Nginx as an HTTP and reverse proxy server.</li>
           <li>Maintained a CI/CD system with Circle and GitHub flow.</li>
@@ -48,9 +62,11 @@ function App() {
         <p>Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
         <ul>
           <li>Developed an on-site management system using React and Redux.</li>
-          <li>Used Firebase to address Authentication, Database, Storage, Hosting, and Functions.</li>
+          <li>Built serverless application using node.js.</li>
+          <li>Addressed authentication using OAuth 2.0.</li>
+          <li>Stored and synced data with NoSQL cloud database.</li>
         </ul>
-        <p>Wrote programs to aid engineers in designing and analyzing structure engineering.</p>
+        <p>Structural engineering domain problem: wrote programs to aid engineers in designing and analyzing structure engineering.</p>
         <ul>
           <li>EtabsScan: Checked the structure and analyze whether it is reasonable.</li>
           <li>LapLength: Optimizing the lap length of reinforcement.</li>
@@ -65,7 +81,7 @@ function App() {
         </ul>
       </div>
       <div>
-        <h2>EDUCATION</h2>
+        <h2>Education</h2>
         <h3>National Taiwan University</h3>
         <p>Master&#39;s degree, Structural Engineering</p>
         <p>2017 – 2019</p>
