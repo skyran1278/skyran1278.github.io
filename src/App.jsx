@@ -45,7 +45,7 @@ function App() {
           <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
           )
         </h3>
-        <p className="right">Aug 2019 – now (11 mos)</p>
+        <p className="right">Aug 2019 - now (11 mos)</p>
         <h4>Full Stack Engineer (Full-time)</h4>
         <p>
           <ul>
@@ -57,7 +57,7 @@ function App() {
             <li>Maintained a CI/CD system with Circle CI and GitHub Actions.</li>
           </ul>
         </p>
-        <p className="right">Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
+        <p className="right">Jun 2016 - Jul 2019 (3 yrs 2 mos)</p>
         <h4>Full Stack Engineer (Internship)</h4>
         <p>
           <ul>
@@ -82,7 +82,7 @@ function App() {
         <h2>Education</h2>
         <h3>National Taiwan University</h3>
         <p>Master&#39;s degree, Structural Engineering</p>
-        <p>2017 – 2019</p>
+        <p>2017 - 2019</p>
         <p>Thesis - &quot;Feasibility of Beam Reinforcement Optimization for Practical Application&quot;</p>
         <ul>
           <li>Developed an algorithm to optimize beam reinforcement.</li>
@@ -91,14 +91,14 @@ function App() {
         </ul>
         <h3>National Taiwan University</h3>
         <p>Bachelor&#39;s degree, Civil Engineering</p>
-        <p>2013 – 2017</p>
+        <p>2013 - 2017</p>
         <p>Related courses</p>
         <ul>
           <li>EE 3011 Data Structure and Programming</li>
           <li>
             <a target="_blank" rel="noopener noreferrer" href="http://csx.ntu.edu.tw/demo_105-2/index.html">CSX 2003 Website Database Programming</a>
             {' '}
-            (Used Azure, Node.js, Express.js to build a website and receive the Gold Medal.)
+            (Used Azure, Node.js, Express.js to build a website and chrome extension and receive the Gold Medal.)
           </li>
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
