@@ -8,18 +8,17 @@ function App() {
         <h1>You-Ran Nai</h1>
 
         <p>New Taipei City, Taiwan</p>
-        <a href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
-        <p>
-          <i className="material-icons">mail</i>
-          &nbsp;skyran1278@gmail.com
-        </p>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
+        <p>skyran1278@gmail.com</p>
       </div>
       <div>
         <h2>Summary</h2>
         <p>
-          Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.
-          Experienced with building front-end and back-end system architectures from ground-zero.
-          Enthusiasm in coding and web development knowledge all come from self-learning.
+          <ul>
+            <li>Combines structural engineering domain knowledge with more than three years of practical experience in full stack web development.</li>
+            <li>Experienced with designing frontend and backend system architectures from ground-zero.</li>
+            <li>Hunger for web development knowledge all comes from self-learning.</li>
+          </ul>
         </p>
       </div>
       <div>
@@ -31,7 +30,7 @@ function App() {
               <ul>
                 <li>React, Redux</li>
                 <li>Node.js, Express.js, Jest, Restful API, MongoDB, Mongoose, Nginx</li>
-                <li>Docker, Linux, CI/CD</li>
+                <li>Docker, Linux, Circle CI, GitHub Actions</li>
               </ul>
             </li>
             <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
@@ -39,45 +38,44 @@ function App() {
         </p>
       </div>
       <div>
-        <h2>
-          <i className="material-icons">computer</i>
-          &nbsp;Experiences
-        </h2>
+        <h2>Experiences</h2>
         <h3>
           Elements Structure Inc.
           (
           <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
           )
         </h3>
-        <p>Full Stack Engineer (Full-time)</p>
-        <p>Aug 2019 – now (11 mos)</p>
+        <p className="right">Aug 2019 – now (11 mos)</p>
+        <h4>Full Stack Engineer (Full-time)</h4>
+        <p>
+          <ul>
+            <li>Used React and Redux for building internal management of systems, including account management and reporting systems.</li>
+            <li>Built with RESTful APIs using Node/Express and MongoDB/Mongoose.</li>
+            <li>Developed notification and backup services via Node.js.</li>
+            <li>Deployed microservices using Docker.</li>
+            <li>Used Nginx as an HTTP and reverse proxy server.</li>
+            <li>Maintained a CI/CD system with Circle CI and GitHub Actions.</li>
+          </ul>
+        </p>
+        <p className="right">Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
+        <h4>Full Stack Engineer (Internship)</h4>
+        <p>
+          <ul>
+            <li>Worked with RCAD Inc. to develop an on-site management system.</li>
+            <li>Built serverless applications using node.js.</li>
+            <li>Addressed authentication via OAuth 2.0.</li>
+            <li>Stored and synced data with NoSQL cloud database.</li>
+            <li>Developed the UI/UX using React and Redux.</li>
+          </ul>
+        </p>
+        <p>Structural engineering domain know-how: writing tools to aid engineers in analyzing and designing construction engineering.</p>
         <ul>
-          <li>Used React and Redux for building internal management of systems, including account management and reporting systems.</li>
-          <li>Built RESTful APIs using Node/Express and MongoDB/Mongoose.</li>
-          <li>Developed notification and backup services via Node.js.</li>
-          <li>Deployed servers using Docker and used Nginx as an HTTP and reverse proxy server.</li>
-          <li>Maintained a CI/CD system with Circle and GitHub flow.</li>
-        </ul>
-        <p>Full Stack Engineer (Internship)</p>
-        <p>Jun 2016 – Jul 2019 (3 yrs 2 mos)</p>
-        <ul>
-          <li>Developed an on-site management system using React and Redux.</li>
-          <li>Built serverless application using node.js.</li>
-          <li>Addressed authentication using OAuth 2.0.</li>
-          <li>Stored and synced data with NoSQL cloud database.</li>
-        </ul>
-        <p>Structural engineering domain problem: wrote programs to aid engineers in designing and analyzing structure engineering.</p>
-        <ul>
-          <li>EtabsScan: Checked the structure and analyze whether it is reasonable.</li>
-          <li>LapLength: Optimizing the lap length of reinforcement.</li>
-          <li>TimeSheetManageSystem: Project cost statistics system.</li>
-          <li>BeamZValue: Steel structure members are optimized according to the Z value.</li>
-          <li>SRCSelector: Select the SRC section according to PMM Curve.</li>
-          <li>BeamForces: Help design the SRC section.</li>
-          <li>RCScan: Check whether the RC reinforcement meets the specifications.</li>
-          <li>AngleChange: Check whether the angle radius meets the specifications.</li>
-          <li>AttendanceRecords: Staff hour statistics.</li>
-          <li>StoryDrifts: Automatically generate story drifts chart.</li>
+          <li>Developed a program to monitor structured models and analyze whether they are reasonable.</li>
+          <li>Optimized for the lap length of reinforcement to reduce construction reinforcement costs.</li>
+          <li>Optimizes steel structure members according to their Z values. (Using k-means and hierarchical-clustering algorithm.)</li>
+          <li>Designing SRC according to the PMM Curve. (For analysis software far-reaching this area, we developed an assist program which used Newton&apos;s method and method of slide algorithm.)</li>
+          <li>Check whether the design reinforcement meets the RC specification. (Worked with RCAD Inc..)</li>
+          <li>Check whether the angle radius meets the specifications. (Optimized speed to 400 times faster than the previous version.)</li>
         </ul>
       </div>
       <div>
@@ -87,9 +85,9 @@ function App() {
         <p>2017 – 2019</p>
         <p>Thesis - &quot;Feasibility of Beam Reinforcement Optimization for Practical Application&quot;</p>
         <ul>
-          <li>Developed an Algorithm to Optimize Reinforcement.</li>
-          <li>Nonlinear dynamic analysis.</li>
-          <li>Developed a GUI which written in Python.</li>
+          <li>Developed an algorithm to optimize beam reinforcement.</li>
+          <li>Developed a GUI which written in python for engineering easy to use.</li>
+          <li>Nonlinear timehistory analysis.</li>
         </ul>
         <h3>National Taiwan University</h3>
         <p>Bachelor&#39;s degree, Civil Engineering</p>
@@ -97,7 +95,11 @@ function App() {
         <p>Related courses</p>
         <ul>
           <li>EE 3011 Data Structure and Programming</li>
-          <li>CSX 2003 Website Database Programming (Used Azure, Express, and Bootstrap to build a website.)</li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="http://csx.ntu.edu.tw/demo_105-2/index.html">CSX 2003 Website Database Programming</a>
+            {' '}
+            (Used Azure, Node.js, Express.js to build a website and get Gold Medal.)
+          </li>
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
         </ul>
