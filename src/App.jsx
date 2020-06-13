@@ -26,8 +26,8 @@ function App() {
             Proficient:
             <ul>
               <li>React, Redux</li>
-              <li>Node.js, Express.js, Jest, Restful API, MongoDB, Mongoose, Nginx</li>
-              <li>Docker, Linux, Circle CI, GitHub Actions</li>
+              <li>Node.js, Express.js, Jest, RESTful API, MongoDB, Mongoose, Nginx</li>
+              <li>Docker, Linux, CircleCI, GitHub Actions</li>
             </ul>
           </li>
           <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
@@ -35,27 +35,22 @@ function App() {
       </div>
       <div>
         <h2>Experiences</h2>
-        <h3>
-          Elements Structure Inc.
-          (
-          <a target="_blank" rel="noopener noreferrer" href="https://www.elements-str.com/">website</a>
-          )
-        </h3>
+        <h3>Elements Structure Inc.</h3>
         <h4 className="margin-bot-0">Full Stack Engineer (Full-time)</h4>
         <p className="right margin-top-0">Aug 2019 - now (11 mos)</p>
         <ul>
-          <li>Used React and Redux for building internal management of systems, including account management and reporting systems.</li>
-          <li>Built with RESTful APIs using Node/Express and MongoDB/Mongoose.</li>
+          <li>Used React and Redux to build internal systems including an account management system and an issue tracking system.</li>
+          <li>Built with RESTful APIs with Node/Express and MongoDB/Mongoose.</li>
           <li>Developed notification and backup services via Node.js.</li>
           <li>Deployed microservices using Docker.</li>
           <li>Used Nginx as an HTTP and reverse proxy server.</li>
-          <li>Maintained a CI/CD system with Circle CI and GitHub Actions.</li>
+          <li>Maintained a CI/CD system with CircleCI and GitHub Actions.</li>
         </ul>
         <h4 className="margin-bot-0">Full Stack Engineer (Internship)</h4>
         <p className="right margin-top-0">Jun 2016 - Jul 2019 (3 yrs 2 mos)</p>
         <ul>
           <li>Worked with RCAD Inc. to develop an on-site management system.</li>
-          <li>Built serverless applications using node.js.</li>
+          <li>Built serverless applications using Node.js.</li>
           <li>Addressed authentication via OAuth 2.0.</li>
           <li>Stored and synced data with the NoSQL cloud database.</li>
           <li>Developed the UI/UX using React and Redux.</li>
