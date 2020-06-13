@@ -1,8 +1,33 @@
-.wrapper {
-  width: 720px;
-  margin: auto;
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
 
 .right {
-  float: right;
+  text-align: right;
+}
+
+.margin-bot-0 {
+  margin-bottom: 0px;
+}
+
+.margin-top-0 {
+  margin-top: 0px;
 }
