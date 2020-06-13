@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,SACE,WAAY,CACZ,WACF,CAEA,OACE,WACF","file":"main.ae271c43.chunk.css","sourcesContent":[".wrapper {\r\n  width: 720px;\r\n  margin: auto;\r\n}\r\n\r\n.right {\r\n  float: right;\r\n}\r\n"]}
