@@ -6,10 +6,11 @@ function App() {
     <div className="container">
       <div>
         <h1>You-Ran Nai</h1>
-
-        <p>New Taipei City, Taiwan</p>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
-        <p>skyran1278@gmail.com</p>
+        <ul>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a></li>
+          <li>paul@youranai.com</li>
+          <li>New Taipei City, Taiwan</li>
+        </ul>
       </div>
       <div>
         <h2>Summary</h2>
@@ -19,27 +20,18 @@ function App() {
           <li>Hunger for web development knowledge all comes from self-learning.</li>
         </ul>
       </div>
-      <div>
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            Proficient:
-            <ul>
-              <li>React, Redux</li>
-              <li>Node.js, Express.js, Jest, RESTful API, MongoDB, Mongoose, Nginx</li>
-              <li>Docker, Linux, CircleCI, GitHub Actions</li>
-            </ul>
-          </li>
-          <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
-        </ul>
-      </div>
+
       <div>
         <h2>Experiences</h2>
         <h3>Elements Structure Inc.</h3>
         <h4 className="margin-bot-0">Full Stack Engineer (Full-time)</h4>
-        <p className="right margin-top-0">Aug 2019 - now (11 mos)</p>
+        <p className="right margin-top-0">Aug 2019 - now (1 yr)</p>
         <ul>
-          <li>Used React and Redux to build internal systems including an account management system and an issue tracking system.</li>
+          <li>
+            Used React and Redux to build internal systems including an account management system and an issue tracking system.
+            {' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://timesheet.elements-str.com">(website)</a>
+          </li>
           <li>Built with RESTful APIs with Node/Express and MongoDB/Mongoose.</li>
           <li>Developed notification and backup services via Node.js.</li>
           <li>Deployed microservices using Docker.</li>
@@ -49,7 +41,11 @@ function App() {
         <h4 className="margin-bot-0">Full Stack Engineer (Internship)</h4>
         <p className="right margin-top-0">Jun 2016 - Jul 2019 (3 yrs 2 mos)</p>
         <ul>
-          <li>Worked with RCAD Inc. to develop an on-site management system.</li>
+          <li>
+            Worked with RCAD Inc. to develop an on-site management system.
+            {' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://rcbimx.com">(website)</a>
+          </li>
           <li>Built serverless applications using Node.js.</li>
           <li>Addressed authentication via OAuth 2.0.</li>
           <li>Stored and synced data with the NoSQL cloud database.</li>
@@ -83,12 +79,26 @@ function App() {
         <ul>
           <li>EE 3011 Data Structure and Programming</li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="http://csx.ntu.edu.tw/demo_105-2/index.html">CSX 2003 Website Database Programming</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@youran/704e60ffc5b7">CSX 2003 Website Database Programming</a>
             {' '}
             (Used Azure, Node.js, Express.js to build a website and chrome extension and receive the Gold Medal.)
           </li>
           <li>CIE 5086 Technology and Application of BIM</li>
           <li>CIE 1008 Computer Programming</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            Proficient:
+            <ul>
+              <li>React, Redux</li>
+              <li>Node.js, Express.js, Jest, RESTful API, MongoDB, Mongoose, Nginx</li>
+              <li>Docker, Linux, CircleCI, GitHub Actions</li>
+            </ul>
+          </li>
+          <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
         </ul>
       </div>
     </div>
