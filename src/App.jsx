@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import './App.css';
 
@@ -7,7 +8,9 @@ function App() {
       <div>
         <h1>You-Ran Nai</h1>
         <ul>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a></li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
+          </li>
           <li>paul@youranai.com</li>
           <li>New Taipei City, Taiwan</li>
         </ul>
