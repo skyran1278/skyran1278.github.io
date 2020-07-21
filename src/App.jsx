@@ -14,8 +14,8 @@ function App() {
           <li>paul@youranai.com</li>
           <li>New Taipei City, Taiwan</li>
         </ul>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/"><img src={github} alt="github" className="height70" /></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/"><img src={linkedIn} alt="linkedIn" className="height70" /></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/skyran1278"><img src={github} alt="github" className="height-30 margin-right-10" /></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"><img src={linkedIn} alt="linkedIn" className="height-30" /></a>
       </div>
       <div>
         <h2>Summary</h2>
