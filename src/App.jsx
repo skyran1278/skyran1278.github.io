@@ -1,5 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
+
+import github from './GitHub-Mark-64px.png';
+import linkedIn from './LI-In-Bug.png';
 import './App.css';
 
 function App() {
@@ -8,12 +11,11 @@ function App() {
       <div>
         <h1>You-Ran Nai</h1>
         <ul>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/">https://www.linkedin.com/in/you-ran-nai-7b4415ab/</a>
-          </li>
           <li>paul@youranai.com</li>
           <li>New Taipei City, Taiwan</li>
         </ul>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/"><img src={github} alt="github" className="height70" /></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/you-ran-nai-7b4415ab/"><img src={linkedIn} alt="linkedIn" className="height70" /></a>
       </div>
       <div>
         <h2>Summary</h2>
@@ -47,7 +49,7 @@ function App() {
           <li>
             Worked with RCAD Inc. to develop an on-site management system.
             {' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://rcbimx.com">(website)</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1LAP2v3wq7_7ljqeoZSjfpAHKYZr7ZcpQ/view?usp=sharing">(website)</a>
           </li>
           <li>Built serverless applications using Node.js.</li>
           <li>Addressed authentication via OAuth 2.0.</li>
