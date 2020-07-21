@@ -35,7 +35,7 @@ function App() {
           <li>
             Used React and Redux to build internal systems including an account management system and an issue tracking system.
             {' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://timesheet.elements-str.com">(website)</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/rHxUf8aVUMM">(website)</a>
           </li>
           <li>Built with RESTful APIs with Node/Express and MongoDB/Mongoose.</li>
           <li>Developed notification and backup services via Node.js.</li>
