@@ -9,7 +9,7 @@ const App = function () {
       <div>
         <h1>You-Ran Nai</h1>
         <ul>
-          <li>paul@youranai.com</li>
+          <li>nai@u-ran.com</li>
           <li>New Taipei City, Taiwan</li>
         </ul>
         <a
