@@ -3,33 +3,10 @@ import './App.css';
 import github from './GitHub-Mark-64px.png';
 import linkedIn from './LI-In-Bug.png';
 
-const App = function () {
-  return (
-    <div className="container">
+const App: React.FC = function App() {
+  return <div className="container">
       <div>
         <h1>You-Ran Nai</h1>
-        <ul>
-          <li>nai@u-ran.com</li>
-          <li>New Taipei City, Taiwan</li>
-        </ul>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/skyran1278"
-        >
-          <img
-            src={github}
-            alt="github"
-            className="height-30 margin-right-10"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"
-        >
-          <img src={linkedIn} alt="linkedIn" className="height-30" />
-        </a>
       </div>
       <div>
         <h2>Summary</h2>
@@ -176,8 +153,28 @@ const App = function () {
           <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
         </ul>
       </div>
+      <div>
+        <div>nai@u-ran.com</div>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/skyran1278"
+        >
+          <img
+            src={github}
+            alt="github"
+            className="height-30 margin-right-10"
+          />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"
+        >
+          <img src={linkedIn} alt="linkedIn" className="height-30" />
+        </a>
+      </div>
     </div>
-  );
-};
+}
 
 export default App;
