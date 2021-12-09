@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import github from './GitHub-Mark-64px.png';
-import linkedIn from './LI-In-Bug.png';
+import emailIcon from './email.svg';
+import githubIcon from './icons8-github.svg';
+import linkedInIcon from './icons8-linkedin.svg';
 
 const App: React.FC = function App() {
-  return <div className="container">
+  return (
+    <div className="container">
       <div>
         <h1>You-Ran Nai</h1>
       </div>
@@ -24,7 +26,6 @@ const App: React.FC = function App() {
           </li>
         </ul>
       </div>
-
       <div>
         <h2>Experiences</h2>
         <h3>Elements Structure Inc.</h3>
@@ -154,27 +155,48 @@ const App: React.FC = function App() {
         </ul>
       </div>
       <div>
-        <div>nai@u-ran.com</div>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/skyran1278"
-        >
+        <div className="contact-info">
           <img
-            src={github}
-            alt="github"
+            src={emailIcon}
+            alt="email"
             className="height-30 margin-right-10"
           />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"
-        >
-          <img src={linkedIn} alt="linkedIn" className="height-30" />
-        </a>
+          nai@u-ran.com
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/skyran1278"
+            className="contact-info"
+          >
+            <img
+              src={githubIcon}
+              alt="github"
+              className="height-30 margin-right-10"
+            />
+            https://github.com/skyran1278
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"
+            className="contact-info"
+          >
+            <img
+              src={linkedInIcon}
+              alt="linkedIn"
+              className="height-30 margin-right-10"
+            />
+            https://www.linkedin.com/in/you-ran-nai-7b4415ab
+          </a>
+        </div>
+        <div className="height-30" />
       </div>
     </div>
-}
+  );
+};
 
 export default App;
