@@ -3,6 +3,11 @@
 ## TODO
 
 - 優化文字
+  - 刪除 Proficient, Intermediate
+  - 刪除 self-learning
+  - 增加 from legacy code
+  - website 有名字
+  - c++
 - 增加工作經歷
 
 ## ICON 來源
