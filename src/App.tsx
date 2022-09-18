@@ -1,128 +1,215 @@
 import React from 'react';
 import './App.css';
-import emailIcon from './email.svg';
-import githubIcon from './icons8-github.svg';
-import linkedInIcon from './icons8-linkedin.svg';
 
 const App: React.FC = function App() {
   return (
     <div className="container">
-      <div>
-        <h1>You-Ran Nai</h1>
+      <div className="headline">
+        <div>
+          <h1>You-Ran Nai</h1>
+        </div>
+        <div className="contact-info">
+          <div>Phone: (+886) 920-785-026</div>
+          <div>Email: nai@u-ran.com</div>
+          <div>
+            GitHub:{' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/skyran1278"
+            >
+              https://github.com/skyran1278
+            </a>
+          </div>
+        </div>
       </div>
       <div>
         <h2>Summary</h2>
         <ul>
           <li>
-            Combines structural engineering domain knowledge with more than
-            three years of practical experience in full-stack web development.
+            Multi-talented software developer with 3+ years of practical
+            experience in web/desktop development and cloud-based
+            infrastructure.
+            {/* 加上實習甚至達到 6 年的經驗了, 熟悉 web 技術, c++ windows 桌面軟體, 雲端 AWS */}
           </li>
           <li>
-            Experienced with designing frontend and backend system architectures
-            from ground-zero.
+            Experienced with designing 3-tier architecture (Client, Server, and
+            Database) from scratch, in addition to renovating desktop
+            applications from a legacy codebase.
+            {/*
+            最開始的公司是小公司, 公司只有我一個開發人員, 所有的東西都是從頭開始建置
+            - 前端, 後端與資料庫的架構設計
+            - CI/CD
+            - 維運怎麼從 linux docker 遷移到 AWS
+            - 資料備份等等
+
+            後來來到 RCAD 後, 雖然已經是領導品牌, 但同時也是因為在 10 年前就成立了, 所以挑戰變成了
+            - 看懂前人的程式碼
+            - 翻新舊有的技術棧
+            */}
           </li>
           <li>
-            Hunger for web development knowledge all comes from self-learning.
+            Expertise in end-to-end software development life cycle processes
+            and experience in carrying out impact analysis, project review, and
+            documentation In-depth knowledge of object-oriented programming and
+            design techniques.
+            {/* 與同事協同合作, 歷經需求分析, 架構設計, 實作, 撰寫文件 */}
           </li>
         </ul>
       </div>
       <div>
+        <h2>Skills</h2>
+        <div>
+          Javascript, C++, Python, React, Redux, Jest, Node, Express, RESTful
+          API, MongoDB, Mongoose, Nginx, Docker, Azure Pipeline, GCP Vision API,
+          Firebase, AWS API Gateway, Cloudfront, VPC, ECS, Lambda, S3, CDK
+        </div>
+      </div>
+      <div>
         <h2>Experiences</h2>
-        <h3>Elements Structure Inc.</h3>
-        <h4 className="margin-bot-0">Full Stack Engineer (Full-time)</h4>
-        <p className="right margin-top-0">Aug 2019 - now (1 yr)</p>
+        <h3>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://building.rcad.com.tw/"
+          >
+            RCAD Inc.
+          </a>
+        </h3>
+        <div className="job-title">
+          <div>C++ Desktop Developer</div>
+          <div>Aug 2020 - now (2 yrs)</div>
+        </div>
         <ul>
           <li>
-            Used React and Redux to build internal systems including an account
-            management system and an issue tracking system.{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://youtu.be/rHxUf8aVUMM"
-            >
-              (website)
-            </a>
+            Handled the design, development, integration testing, review, and
+            documentation of the various modules for structural analysis
+            applications.
           </li>
           <li>
-            Built with RESTful APIs with Node/Express and MongoDB/Mongoose.
+            Utilized Visual C++, MFC, STL, and OO Design Patterns to develop
+            desktop applications.
           </li>
-          <li>Developed notification and backup services via Node.js.</li>
-          <li>Deployed microservices using Docker.</li>
-          <li>Used Nginx as an HTTP and reverse proxy server.</li>
-          <li>Maintained a CI/CD system with CircleCI and GitHub Actions.</li>
+          <li>
+            Developed a script using python to smoothly migrate from multi-bytes
+            to Unicode applications.
+            {/* 開發 codemod, 快速遷移既有的程式碼, C++ 的語法不容易開發類似的 tool, 所以網路上相關的工具也比較少 */}
+          </li>
+          <li>
+            Responsible for designing and maintaining the GIT/TFS repositories
+            and their pipeline strategies.
+            {/* 重新制定並開發 CI/CD 流程, 包含遷移所有的集中式版本控管系統到分布式 monorepo */}
+          </li>
+          <li>
+            Developed and maintained integration test suites based on functional
+            specifications and user edge cases.
+            {/* 撰寫桌面端 end to end 自動化測試的 script */}
+          </li>
         </ul>
-        <h4 className="margin-bot-0">Full Stack Engineer (Internship)</h4>
-        <p className="right margin-top-0">Jun 2016 - Jul 2019 (3 yrs 2 mos)</p>
+        <h3>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://elements-str.com/"
+          >
+            Elements Structure Inc.
+          </a>
+        </h3>
+        <div className="job-title">
+          <div>Full Stack Web Developer</div>
+          <div>Aug 2019 - Aug 2020 (1 yr)</div>
+          {/*
+          主要的產品線有
+          - 利用 react node.js aws 開發雲端打卡與專案工時計算系統
+          - 利用 PyTorch 與 Google Vision API 開發 AI 辨識結構平面圖
+          */}
+        </div>
         <ul>
           <li>
-            Worked with RCAD Inc. to develop an on-site management system.{' '}
+            Used React and Redux to build{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://espm.in">
+              a web application for account management and issue tracking
+            </a>
+            .
+          </li>
+          <li>
+            Built with RESTful APIs using Node/Express and MongoDB/Mongoose.
+          </li>
+          <li>Developed notification and backup services with Node.js.</li>
+          <li>
+            Migrated from a self-hosted environment to a cloud-based
+            auto-scaling infrastructure, and from single-tenant to multi-tenant
+            architecture.
+          </li>
+          <li>
+            Created a structure plan vision system by using PyTorch and GCP.
+          </li>
+        </ul>
+        <div className="job-title">
+          <div>Full Stack Web Developer (Internship)</div>
+          <div>Jun 2016 - Jul 2019 (3 yrs 2 mos)</div>
+          {/*
+          主要的產品線有
+          - 與 RCAD 合作, 開發現場工地查驗的雲端輔助系統
+          - 利用 k-means 與集群演算法, 最佳化結構桿件
+          - 用牛頓法與半切法, 開發設計異材質接合的桿件
+          - 優化既有程式, 使速度大幅度提升, 原本要跑半天一天的程式, 現在不用一分鐘就跑完了
+          */}
+        </div>
+        <ul>
+          <li>
+            Worked with RCAD Inc. to develop an{' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1LAP2v3wq7_7ljqeoZSjfpAHKYZr7ZcpQ/view?usp=sharing"
             >
-              (website)
+              on-site management system
             </a>
-          </li>
-          <li>Built serverless applications using Node.js.</li>
-          <li>Addressed authentication via OAuth 2.0.</li>
-          <li>Stored and synced data with the NoSQL cloud database.</li>
-          <li>Developed the UI/UX using React and Redux.</li>
-        </ul>
-        <p>
-          Structural engineering domain know-how: writing applications to aid
-          engineers in analyzing and designing construction engineering.
-        </p>
-        <ul>
-          <li>
-            Developed a program to monitor structured models and analyze whether
-            they are reasonable.
+            .
           </li>
           <li>
-            Optimized for the lap length of reinforcement to reduce construction
-            reinforcement costs.
+            Stored data with the NoSQL cloud database and addressed
+            authentication via OAuth 2.0.
           </li>
           <li>
-            Optimizes steel structure members according to their Z values.
-            (Using k-means and hierarchical-clustering algorithm.)
+            Optimized steel structure members according to their Z values by
+            using k-means and hierarchical-clustering algorithms.
           </li>
           <li>
-            Designing SRC according to the PMM Curve. (For analysis software
-            far-reaching this area, we developed an assistance program which
-            used Newton&apos;s method and method of slide algorithm.)
+            Designing SRC according to the PMM Curve which used Newton&apos;s
+            method and the slide algorithm.
           </li>
           <li>
-            Check whether the designed reinforcement meets the RC specification.
-            (Worked with RCAD Inc..)
-          </li>
-          <li>
-            Check whether the angle radius meets the specifications. (Optimized
-            speed to 400 times faster than the previous version.)
+            Checked whether the angle radius meets the specifications.
+            (Optimized speed to 400 times faster than the previous version.)
           </li>
         </ul>
       </div>
       <div>
         <h2>Education</h2>
         <h3>National Taiwan University</h3>
-        <p className="margin-bot-0">
-          Master&#39;s degree, Structural Engineering
-        </p>
-        <p className="right margin-top-0">2017 - 2019</p>
-        <p>
-          Thesis - &quot;Feasibility of Beam Reinforcement Optimization for
-          Practical Application&quot;
-        </p>
+        <div className="job-title">
+          <div>Master&#39;s degree, Structural Engineering</div>
+          <div>2017 - 2019</div>
+          {/*
+          以 Python 開發 GUI 與最佳化軟體
+          */}
+        </div>
         <ul>
+          <li>
+            Thesis - &quot;Feasibility of Beam Reinforcement Optimization for
+            Practical Application&quot;
+          </li>
           <li>Developed an algorithm to optimize beam reinforcement.</li>
-          <li>Developed a GUI written in Python for easy engineering use.</li>
-          <li>Nonlinear time-history analysis.</li>
+          <li>Developed a GUI written in the python programming language.</li>
         </ul>
         <h3>National Taiwan University</h3>
-        <p className="margin-bot-0">Bachelor&#39;s degree, Civil Engineering</p>
-        <p className="right margin-top-0">2013 - 2017</p>
-        <p>Related courses</p>
+        <div className="job-title">
+          <div>Bachelor&#39;s degree, Civil Engineering</div>
+          <div>2013 - 2017</div>
+        </div>
         <ul>
-          <li>EE 3011 Data Structure and Programming</li>
           <li>
             <a
               target="_blank"
@@ -131,69 +218,10 @@ const App: React.FC = function App() {
             >
               CSX 2003 Website Database Programming
             </a>{' '}
-            (Used Azure, Node.js, Express.js to build a website and chrome
+            (Used Azure, Node.js, and Express.js to build a website and chrome
             extension and receive the Gold Medal.)
           </li>
-          <li>CIE 5086 Technology and Application of BIM</li>
-          <li>CIE 1008 Computer Programming</li>
         </ul>
-      </div>
-      <div>
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            Proficient:
-            <ul>
-              <li>React, Redux</li>
-              <li>
-                Node.js, Express.js, Jest, RESTful API, MongoDB, Mongoose, Nginx
-              </li>
-              <li>Docker, Linux, CircleCI, GitHub Actions</li>
-            </ul>
-          </li>
-          <li>Intermediate: Azure, Firebase, Heroku, MySQL</li>
-        </ul>
-      </div>
-      <div>
-        <div className="contact-info">
-          <img
-            src={emailIcon}
-            alt="email"
-            className="height-30 margin-right-10"
-          />
-          nai@u-ran.com
-        </div>
-        <div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/skyran1278"
-            className="contact-info"
-          >
-            <img
-              src={githubIcon}
-              alt="github"
-              className="height-30 margin-right-10"
-            />
-            https://github.com/skyran1278
-          </a>
-        </div>
-        <div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/you-ran-nai-7b4415ab"
-            className="contact-info"
-          >
-            <img
-              src={linkedInIcon}
-              alt="linkedIn"
-              className="height-30 margin-right-10"
-            />
-            https://www.linkedin.com/in/you-ran-nai-7b4415ab
-          </a>
-        </div>
-        <div className="height-30" />
       </div>
     </div>
   );

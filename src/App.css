@@ -1,7 +1,5 @@
 .container {
   width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -20,31 +18,19 @@
   }
 }
 
-.right {
-  text-align: right;
+.job-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.margin-bot-0 {
-  margin-bottom: 0px;
-}
-
-.margin-top-0 {
-  margin-top: 0px;
-}
-
-.height-30 {
-  height: 30px;
-}
-
-.width-30 {
-  width: 30px;
-}
-
-.margin-right-10 {
-  margin-right: 10px;
+.headline {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-info {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
