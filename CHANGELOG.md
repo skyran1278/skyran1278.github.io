@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.0...v0.2.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* grammar error ([f198b5b](https://github.com/skyran1278/skyran1278.github.io/commit/f198b5b85edb59c690cc1257e04501a5ad905110))
+
 ## 0.2.0 (2022-09-22)
 
 
