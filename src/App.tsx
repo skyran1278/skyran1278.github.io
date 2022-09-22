@@ -137,7 +137,7 @@ const App: React.FC = function App() {
           </li>
           <li>Developed notification and backup services with Node.js.</li>
           <li>
-            Migrated the current self-hosted Linux environment to AWS
+            Migrated from the current self-hosted Linux environment to AWS
             auto-scaling infrastructure, and from single-tenant to multi-tenant
             architecture.
           </li>
@@ -146,13 +146,13 @@ const App: React.FC = function App() {
             Cloudfront, S3, ELB, ECS, MongoDB Atlas, IAM, VCP).
           </li>
           <li>
-            Worked on implementing AWS using CDK to define cloud infrastructure
-            in code and provisioning it through AWS CloudFormation.
+            Worked on implementing AWS using the CDK to define cloud
+            infrastructure in code and provisioning it through AWS
+            CloudFormation.
           </li>
           <li>
-            Build out server automation with Continuous Integration - Continuous
-            Deployment tools like GitHub Actions for deployment and build
-            management system.
+            Built out server automation with CI/CD tools like GitHub Actions for
+            deployment and management.
           </li>
           <li>
             Created a structure plan vision system by using PyTorch and GCP
