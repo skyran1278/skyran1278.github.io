@@ -20,6 +20,7 @@
     "web-vitals": "^3.0.0"
   },
   "scripts": {
+    "release": "standard-version",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
@@ -54,6 +55,7 @@
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^43.0.2",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0"
   }
 }
