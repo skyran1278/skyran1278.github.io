@@ -243,6 +243,44 @@ const App: React.FC = function App() {
           </li>
         </ul>
       </div>
+      <div>
+        <h2>Side Project</h2>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/JanHovancik/status/1572480516540223490?s=20&t=00eO2C44EZwpQWQV_abeLw"
+            >
+              stretchly-raycast
+            </a>
+            : Using TypeScript to build a Raycast extension that interacts with
+            Stretchly command line.
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets"
+            >
+              js-jsx-snippets
+            </a>
+            : Built a vscode extension for React/Redux in JS with Babel and ES7
+            syntax, downloaded about 0.5 million times.
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/skyran1278/book-badminton-court"
+            >
+              book-badminton-court
+            </a>
+            : Using Typescript, AWS CDK, Docker and EventBridge to build a
+            Lambda application that is used to book badminton courts.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
