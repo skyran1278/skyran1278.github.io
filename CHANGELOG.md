@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.2...v0.2.3) (2022-09-26)
+
+
+### Features
+
+* 補充 line notify 技術棧 ([3d0e55c](https://github.com/skyran1278/skyran1278.github.io/commit/3d0e55ccc9ad8706390c9f840289904ecc4968b0))
+
 ### [0.2.2](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.1...v0.2.2) (2022-09-25)
 
 
