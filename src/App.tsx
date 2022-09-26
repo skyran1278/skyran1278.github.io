@@ -265,7 +265,7 @@ const App: React.FC = function App() {
             >
               js-jsx-snippets
             </a>
-            : Built a vscode extension for React/Redux in JS with Babel and ES7
+            : Built a VSCode extension for React/Redux in JS with Babel and ES7
             syntax, downloaded about 0.5 million times.
           </li>
           <li>
@@ -276,8 +276,8 @@ const App: React.FC = function App() {
             >
               book-badminton-court
             </a>
-            : Using Typescript, AWS CDK, Docker and EventBridge to build a
-            Lambda application that is used to book badminton courts.
+            : Using Typescript, AWS CDK, Docker, Line Notify and EventBridge to
+            build a Lambda application that is used to book badminton courts.
           </li>
         </ul>
       </div>
