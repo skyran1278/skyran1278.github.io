@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.3...v0.2.4) (2022-10-11)
+
+
+### Features
+
+* 強調桌面 3D 軟體的部分 ([7aba052](https://github.com/skyran1278/skyran1278.github.io/commit/7aba05201ba7cf1a09297748d8d09f8e198277a9))
+
 ### [0.2.3](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.2...v0.2.3) (2022-09-26)
 
 
