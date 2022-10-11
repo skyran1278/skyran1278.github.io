@@ -77,14 +77,13 @@ const App: React.FC = function App() {
           </a>
         </h3>
         <div className="job-title">
-          <div>C++ Desktop Developer</div>
+          <div>Desktop Developer</div>
           <div>Aug 2020 - now (2 yrs)</div>
         </div>
         <ul>
           <li>
-            Handled the design, development, integration testing, review, and
-            documentation of the various modules for structural analysis
-            applications.
+            Handled the design, development, testing, review, and documentation
+            of the various modules for 3D applications.
           </li>
           <li>
             Utilized Visual C++, MFC, STL, and OO Design Patterns to develop
