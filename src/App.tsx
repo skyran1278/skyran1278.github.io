@@ -25,18 +25,16 @@ const App: React.FC = function App() {
       </div>
       <div>
         <h2>Summary</h2>
-        <ul>
-          <li>
-            Multi-talented software developer with 3+ years of practical
-            experience in web/desktop development and cloud-based
-            infrastructure.
-            {/* 加上實習甚至達到 6 年的經驗了, 熟悉 web 技術, c++ windows 桌面軟體, 雲端 AWS */}
-          </li>
-          <li>
-            Experienced with designing 3-tier architecture (Client, Server, and
-            Database) from scratch, in addition to renovating desktop
-            applications from a legacy codebase.
-            {/*
+        <p>
+          As a multi-talented software developer with 3+ years of practical
+          experience in web, desktop, and cloud-based infrastructure
+          development, I have a strong background in designing 3-tier
+          architectures and renovating complex applications. My experience has
+          allowed me to become proficient in a wide range of technologies and
+          tools, and I am confident in my ability to deliver high-quality
+          software solutions.
+          {/*
+            加上實習甚至達到 6 年的經驗了, 熟悉 web 技術, c++ windows 桌面軟體, 雲端 AWS
             最開始的公司是小公司, 公司只有我一個開發人員, 所有的東西都是從頭開始建置
             - 前端, 後端與資料庫的架構設計
             - CI/CD
@@ -47,22 +45,13 @@ const App: React.FC = function App() {
             - 看懂前人的程式碼
             - 翻新舊有的技術棧
             */}
-          </li>
-          <li>
-            Expertise in end-to-end software development life cycle processes
-            and experience in carrying out impact analysis, project review, and
-            documentation In-depth knowledge of object-oriented programming and
-            design techniques.
-            {/* 與同事協同合作, 歷經需求分析, 架構設計, 實作, 撰寫文件 */}
-          </li>
-        </ul>
+        </p>
       </div>
       <div>
         <h2>Skills</h2>
         <div>
-          Javascript, C++, Python, React, Redux, Jest, Node, Express, RESTful
-          API, MongoDB, Mongoose, Nginx, Docker, Azure Pipeline, GCP Vision API,
-          Firebase, AWS API Gateway, Cloudfront, VPC, ECS, Lambda, S3, CDK
+          Javascript, C++, Python, React, Redux, Jest, Node, MongoDB, AWS,
+          Docker, Azure Pipeline, GCP Vision API, Firebase
         </div>
       </div>
       <div>
@@ -77,26 +66,30 @@ const App: React.FC = function App() {
           </a>
         </h3>
         <div className="job-title">
-          <div>Desktop Developer</div>
+          <div>Software Developer</div>
           <div>Aug 2020 - now (2 yrs)</div>
         </div>
         <ul>
           <li>
-            Handled the design, development, testing, review, and documentation
-            of the various modules for 3D applications.
+            Designed, developed, tested, reviewed, and documented various
+            modules for 3D applications using Visual C++, MFC, and OO Design
+            Patterns.
           </li>
           <li>
-            Utilized Visual C++, MFC, STL, and OO Design Patterns to develop
-            desktop applications.
+            Reviewed papers and implemented algorithms to solve complex
+            problems.
+            {/*
+            - 一般多邊形切分為多個凸多邊形
+            - 多面體的體積計算
+            */}
           </li>
           <li>
-            Developed a script using python to smoothly migrate from multi-bytes
-            to Unicode applications.
+            Developed a script to seamlessly and efficiently migrate from
+            multi-byte to Unicode applications.
             {/* 開發 codemod, 快速遷移既有的程式碼, C++ 的語法不容易開發類似的 tool, 所以網路上相關的工具也比較少 */}
           </li>
           <li>
-            Responsible for designing and maintaining the GIT/TFS repositories
-            and their pipeline strategies.
+            Managed GIT/TFS repositories and their pipeline strategies.
             {/* 重新制定並開發 CI/CD 流程, 包含遷移所有的集中式版本控管系統到分布式 monorepo */}
           </li>
           <li>
@@ -125,14 +118,12 @@ const App: React.FC = function App() {
         </div>
         <ul>
           <li>
-            Used React and Redux to build{' '}
+            Built{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://espm.in">
               a web application for account management and issue tracking
-            </a>
-            .
-          </li>
-          <li>
-            Built with RESTful APIs using Node/Express and MongoDB/Mongoose.
+            </a>{' '}
+            using React, Redux, and RESTful APIs with Node/Express and
+            MongoDB/Mongoose.
           </li>
           <li>Developed notification and backup services with Node.js.</li>
           <li>
@@ -141,17 +132,8 @@ const App: React.FC = function App() {
             architecture.
           </li>
           <li>
-            Responsible for managing infrastructure provisioning (Route 53,
-            Cloudfront, S3, ELB, ECS, MongoDB Atlas, IAM, VCP).
-          </li>
-          <li>
-            Worked on implementing AWS using the CDK to define cloud
-            infrastructure in code and provisioning it through AWS
-            CloudFormation.
-          </li>
-          <li>
-            Built out server automation with CI/CD tools like GitHub Actions for
-            deployment and management.
+            Managed infrastructure provisioning (Route 53, Cloudfront, S3, ELB,
+            ECS, MongoDB Atlas, IAM, VCP, CDK).
           </li>
           <li>
             Created a structure plan vision system by using PyTorch and GCP
@@ -177,27 +159,24 @@ const App: React.FC = function App() {
         </div>
         <ul>
           <li>
-            Worked with RCAD Inc. to develop an{' '}
+            Developed an{' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1LAP2v3wq7_7ljqeoZSjfpAHKYZr7ZcpQ/view?usp=sharing"
+              href="https://rcbimx.web.app/"
             >
               on-site management system
-            </a>
-            .
-          </li>
-          <li>
-            Stored data with the NoSQL cloud database and addressed
+            </a>{' '}
+            with RCAD Inc., using a NoSQL cloud database and addressing
             authentication via OAuth 2.0.
           </li>
           <li>
-            Optimized steel structure members according to their Z values by
-            using k-means and hierarchical-clustering algorithms.
+            Optimized steel structure members using k-means and hierarchical
+            clustering algorithms.
           </li>
           <li>
-            Designing SRC according to the PMM Curve which used Newton&apos;s
-            method and the slide algorithm.
+            Designed SRC using Newton&apos;s method and the slide algorithm
+            according to the PMM curve.
           </li>
           <li>
             Checked whether the angle radius meets the specifications.
@@ -221,7 +200,7 @@ const App: React.FC = function App() {
             Practical Application&quot;
           </li>
           <li>Developed an algorithm to optimize beam reinforcement.</li>
-          <li>Developed a GUI written in the python programming language.</li>
+          <li>Developed a GUI written in Python.</li>
         </ul>
         <h3>National Taiwan University</h3>
         <div className="job-title">
@@ -235,10 +214,10 @@ const App: React.FC = function App() {
               rel="noopener noreferrer"
               href="https://medium.com/@youran/704e60ffc5b7"
             >
-              CSX 2003 Website Database Programming
+              Gold Medal
             </a>{' '}
-            (Used Azure, Node.js, and Express.js to build a website and chrome
-            extension and receive the Gold Medal.)
+            : CSX 2003 Website Database Programming (Used Azure, Node.js, and
+            Express.js to build a website and chrome extension.)
           </li>
         </ul>
       </div>
@@ -253,8 +232,7 @@ const App: React.FC = function App() {
             >
               stretchly-raycast
             </a>
-            : Using TypeScript to build a Raycast extension that interacts with
-            Stretchly command line.
+            : Using TypeScript to build a Raycast extension.
           </li>
           <li>
             <a
@@ -265,18 +243,7 @@ const App: React.FC = function App() {
               js-jsx-snippets
             </a>
             : Built a VSCode extension for React/Redux in JS with Babel and ES7
-            syntax, downloaded about 0.5 million times.
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/skyran1278/book-badminton-court"
-            >
-              book-badminton-court
-            </a>
-            : Using Typescript, AWS CDK, Docker, Line Notify and EventBridge to
-            build a Lambda application that is used to book badminton courts.
+            syntax, downloaded more than 0.5 million times.
           </li>
         </ul>
       </div>
