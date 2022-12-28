@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.4...v0.2.5) (2022-12-28)
+
+
+### Features
+
+* 優化 summary, 去除冗言贅字 ([690f4c7](https://github.com/skyran1278/skyran1278.github.io/commit/690f4c7111ec6ef5297eb280bb1ea7f7e377e5d9))
+
 ### [0.2.4](https://github.com/skyran1278/skyran1278.github.io/compare/v0.2.3...v0.2.4) (2022-10-11)
 
 
