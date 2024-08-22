@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main className="min-h-screen p-10 bg-gray-100">
-      <div className="max-w-5xl mx-auto">
-        <header className="flex justify-between items-center border-b-2 pb-4 mb-6">
+    <main className="min-h-screen bg-gray-100 p-10">
+      <div className="mx-auto max-w-5xl">
+        <header className="mb-6 flex items-center justify-between border-b-2 pb-4">
           <div className="text-center md:text-left">
             <h1 className="text-4xl font-bold">You-Ran Nai</h1>
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
         </header>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Summary</h2>
+          <h2 className="mb-2 text-2xl font-semibold">Summary</h2>
           <p>
             Multi-talented software developer with 3+ years of experience in
             web, desktop, and cloud-based infrastructure development. Proficient
@@ -35,32 +35,32 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Skills</h2>
+          <h2 className="mb-2 text-2xl font-semibold">Skills</h2>
           <div className="flex flex-wrap gap-2">
-            <span className="bg-gray-200 px-3 py-1 rounded-full">
+            <span className="rounded-full bg-gray-200 px-3 py-1">
               Javascript
             </span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">C++</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Python</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">React</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Redux</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Jest</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Node</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">MongoDB</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">AWS</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Docker</span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">
+            <span className="rounded-full bg-gray-200 px-3 py-1">C++</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Python</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">React</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Redux</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Jest</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Node</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">MongoDB</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">AWS</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Docker</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">
               Azure Pipeline
             </span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">
+            <span className="rounded-full bg-gray-200 px-3 py-1">
               GCP Vision API
             </span>
-            <span className="bg-gray-200 px-3 py-1 rounded-full">Firebase</span>
+            <span className="rounded-full bg-gray-200 px-3 py-1">Firebase</span>
           </div>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Experiences</h2>
+          <h2 className="mb-2 text-2xl font-semibold">Experiences</h2>
           <div className="mb-6">
             <h3 className="text-xl font-medium">
               <a
@@ -72,11 +72,11 @@ export default function Home() {
                 RCAD Inc.
               </a>
             </h3>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <div>Software Developer</div>
               <div>Aug 2020 - Present</div>
             </div>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="mt-2 list-disc space-y-2 pl-5">
               <li>
                 Designed, developed, tested, and documented modules for 3D
                 applications using Visual C++, MFC, and OO Design Patterns.
@@ -108,11 +108,11 @@ export default function Home() {
                 Elements Structure Inc.
               </a>
             </h3>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <div>Full Stack Web Developer</div>
               <div>Aug 2019 - Aug 2020</div>
             </div>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="mt-2 list-disc space-y-2 pl-5">
               <li>
                 Built{' '}
                 <a
@@ -139,11 +139,11 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <div>Full Stack Web Developer (Internship)</div>
               <div>Jun 2016 - Jul 2019</div>
             </div>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="mt-2 list-disc space-y-2 pl-5">
               <li>
                 Developed an{' '}
                 <a
@@ -168,14 +168,14 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Education</h2>
+          <h2 className="mb-2 text-2xl font-semibold">Education</h2>
           <div className="mb-6">
             <h3 className="text-xl font-medium">National Taiwan University</h3>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <div>Master's degree, Structural Engineering</div>
               <div>2017 - 2019</div>
             </div>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="mt-2 list-disc space-y-2 pl-5">
               <li>
                 Thesis: "Feasibility of Beam Reinforcement Optimization for
                 Practical Application"
@@ -187,11 +187,11 @@ export default function Home() {
 
           <div>
             <h3 className="text-xl font-medium">National Taiwan University</h3>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <div>Bachelor's degree, Civil Engineering</div>
               <div>2013 - 2017</div>
             </div>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="mt-2 list-disc space-y-2 pl-5">
               <li>
                 <a
                   className="text-blue-600 hover:underline"
@@ -209,8 +209,8 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Side Projects</h2>
-          <ul className="list-disc pl-5 mt-2 space-y-2">
+          <h2 className="mb-2 text-2xl font-semibold">Side Projects</h2>
+          <ul className="mt-2 list-disc space-y-2 pl-5">
             <li>
               <a
                 className="text-blue-600 hover:underline"
