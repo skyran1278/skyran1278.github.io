@@ -10,7 +10,7 @@ export default function Home() {
             <div>Phone: (+886) 920-785-026</div>
             <div>Email: nai@u-ran.com</div>
             <div>
-              GitHub:{" "}
+              GitHub:{' '}
               <a
                 className="text-blue-600 hover:underline"
                 target="_blank"
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
             <ul className="list-disc pl-5 mt-2 space-y-2">
               <li>
-                Built{" "}
+                Built{' '}
                 <a
                   className="text-blue-600 hover:underline"
                   target="_blank"
@@ -122,7 +122,7 @@ export default function Home() {
                   href="https://espm.in"
                 >
                   a web application for account management and issue tracking
-                </a>{" "}
+                </a>{' '}
                 using React, Redux, Node/Express, and MongoDB.
               </li>
               <li>Developed notification and backup services with Node.js.</li>
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
             <ul className="list-disc pl-5 mt-2 space-y-2">
               <li>
-                Developed an{" "}
+                Developed an{' '}
                 <a
                   className="text-blue-600 hover:underline"
                   target="_blank"
@@ -153,7 +153,7 @@ export default function Home() {
                   href="https://rcbimx.web.app/"
                 >
                   on-site management system
-                </a>{" "}
+                </a>{' '}
                 using a NoSQL cloud database and OAuth 2.0 for authentication.
               </li>
               <li>
@@ -200,7 +200,7 @@ export default function Home() {
                   href="https://medium.com/@youran/704e60ffc5b7"
                 >
                   Gold Medal
-                </a>{" "}
+                </a>{' '}
                 in CSX 2003 Website Database Programming (used Azure, Node.js,
                 and Express.js to build a website and Chrome extension).
               </li>
