@@ -3,10 +3,10 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   plugins: [
-    'prettier-plugin-tailwindcss',
     'prettier-plugin-embed',
     'prettier-plugin-sql',
     'prettier-plugin-import-sort', // prettier-plugin-import-sort should be place after prettier-plugin-embed
+    'prettier-plugin-tailwindcss',
   ],
   language: 'postgresql',
   keywordCase: 'upper',
