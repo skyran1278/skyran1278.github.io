@@ -1,21 +1,21 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-100 p-10">
-      <div className="mx-auto max-w-5xl">
-        <header className="mb-6 flex items-center justify-between border-b-2 pb-4">
-          <div className="text-center md:text-left">
-            <h1 className="text-4xl font-bold">You-Ran Nai</h1>
+    <main className="bg-gray-100 p-8 text-gray-800">
+      <div className="mx-auto max-w-3xl rounded-lg bg-white p-6 shadow-lg">
+        <header className="mb-8">
+          <div className="text-center">
+            <h1 className="mb-2 text-3xl font-bold">You-Ran Nai</h1>
           </div>
-          <div className="text-sm md:text-right">
+          <div className="text-center text-sm text-gray-600">
             <div>Phone: (+886) 920-785-026</div>
             <div>Email: nai@u-ran.com</div>
             <div>
               GitHub:{' '}
               <a
-                className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/skyran1278"
+                className="text-blue-600 hover:underline"
               >
                 github.com/skyran1278
               </a>
@@ -24,8 +24,8 @@ export default function Home() {
         </header>
 
         <section className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">Summary</h2>
-          <p>
+          <h2 className="mb-4 text-2xl font-bold">Summary</h2>
+          <p className="leading-relaxed">
             Multi-talented software developer with 3+ years of experience in
             web, desktop, and cloud-based infrastructure development. Proficient
             in designing 3-tier architectures and renovating complex
@@ -35,48 +35,47 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">Skills</h2>
-          <div className="flex flex-wrap gap-2">
-            <span className="rounded-full bg-gray-200 px-3 py-1">
-              Javascript
-            </span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">C++</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Python</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">React</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Redux</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Jest</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Node</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">MongoDB</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">AWS</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Docker</span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">
+          <h2 className="mb-4 text-2xl font-bold">Skills</h2>
+          <div className="flex flex-wrap gap-2 text-sm">
+            <span className="rounded bg-gray-200 px-2 py-1">JavaScript</span>
+            <span className="rounded bg-gray-200 px-2 py-1">C++</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Python</span>
+            <span className="rounded bg-gray-200 px-2 py-1">React</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Redux</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Jest</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Node</span>
+            <span className="rounded bg-gray-200 px-2 py-1">MongoDB</span>
+            <span className="rounded bg-gray-200 px-2 py-1">AWS</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Docker</span>
+            <span className="rounded bg-gray-200 px-2 py-1">
               Azure Pipeline
             </span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">
+            <span className="rounded bg-gray-200 px-2 py-1">
               GCP Vision API
             </span>
-            <span className="rounded-full bg-gray-200 px-3 py-1">Firebase</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Firebase</span>
           </div>
         </section>
 
         <section className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">Experiences</h2>
+          <h2 className="mb-4 text-2xl font-bold">Experiences</h2>
+
           <div className="mb-6">
-            <h3 className="text-xl font-medium">
+            <h3 className="text-lg font-medium">
               <a
-                className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="http://building.rcad.com.tw/"
+                className="text-blue-600 hover:underline"
               >
                 RCAD Inc.
               </a>
             </h3>
-            <div className="flex items-center justify-between">
+            <div className="text-sm text-gray-600">
               <div>Software Developer</div>
               <div>Aug 2020 - Present</div>
             </div>
-            <ul className="mt-2 list-disc space-y-2 pl-5">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Designed, developed, tested, and documented modules for 3D
                 applications using Visual C++, MFC, and OO Design Patterns.
@@ -98,28 +97,28 @@ export default function Home() {
           </div>
 
           <div className="mb-6">
-            <h3 className="text-xl font-medium">
+            <h3 className="text-lg font-medium">
               <a
-                className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://elements-str.com/"
+                className="text-blue-600 hover:underline"
               >
                 Elements Structure Inc.
               </a>
             </h3>
-            <div className="flex items-center justify-between">
+            <div className="text-sm text-gray-600">
               <div>Full Stack Web Developer</div>
               <div>Aug 2019 - Aug 2020</div>
             </div>
-            <ul className="mt-2 list-disc space-y-2 pl-5">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Built{' '}
                 <a
-                  className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://espm.in"
+                  className="text-blue-600 hover:underline"
                 >
                   a web application for account management and issue tracking
                 </a>{' '}
@@ -139,18 +138,18 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="flex items-center justify-between">
+            <div className="text-sm text-gray-600">
               <div>Full Stack Web Developer (Internship)</div>
               <div>Jun 2016 - Jul 2019</div>
             </div>
-            <ul className="mt-2 list-disc space-y-2 pl-5">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Developed an{' '}
                 <a
-                  className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://rcbimx.web.app/"
+                  className="text-blue-600 hover:underline"
                 >
                   on-site management system
                 </a>{' '}
@@ -168,14 +167,15 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">Education</h2>
+          <h2 className="mb-4 text-2xl font-bold">Education</h2>
+
           <div className="mb-6">
-            <h3 className="text-xl font-medium">National Taiwan University</h3>
-            <div className="flex items-center justify-between">
+            <h3 className="text-lg font-medium">National Taiwan University</h3>
+            <div className="text-sm text-gray-600">
               <div>Master's degree, Structural Engineering</div>
               <div>2017 - 2019</div>
             </div>
-            <ul className="mt-2 list-disc space-y-2 pl-5">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Thesis: "Feasibility of Beam Reinforcement Optimization for
                 Practical Application"
@@ -186,18 +186,18 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">National Taiwan University</h3>
-            <div className="flex items-center justify-between">
+            <h3 className="text-lg font-medium">National Taiwan University</h3>
+            <div className="text-sm text-gray-600">
               <div>Bachelor's degree, Civil Engineering</div>
               <div>2013 - 2017</div>
             </div>
-            <ul className="mt-2 list-disc space-y-2 pl-5">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 <a
-                  className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://medium.com/@youran/704e60ffc5b7"
+                  className="text-blue-600 hover:underline"
                 >
                   Gold Medal
                 </a>{' '}
@@ -208,15 +208,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">Side Projects</h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5">
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Side Projects</h2>
+          <ul className="list-disc space-y-1 pl-5">
             <li>
               <a
-                className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/JanHovancik/status/1572480516540223490?s=20&t=00eO2C44EZwpQWQV_abeLw"
+                className="text-blue-600 hover:underline"
               >
                 stretchly-raycast
               </a>
@@ -224,10 +224,10 @@ export default function Home() {
             </li>
             <li>
               <a
-                className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets"
+                className="text-blue-600 hover:underline"
               >
                 js-jsx-snippets
               </a>
