@@ -97,32 +97,15 @@ export default function Home() {
           </div>
 
           <div className="mb-6">
-            <h3 className="text-lg font-medium">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://elements-str.com/"
-                className="text-blue-600 hover:underline"
-              >
-                Elements Structure Inc.
-              </a>
-            </h3>
+            <h3 className="text-lg font-medium">Elements Structure Inc.</h3>
             <div className="text-sm text-gray-600">
               <div>Full Stack Web Developer</div>
               <div>Aug 2019 - Aug 2020</div>
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                Built{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://espm.in"
-                  className="text-blue-600 hover:underline"
-                >
-                  a web application for account management and issue tracking
-                </a>{' '}
-                using React, Redux, Node/Express, and MongoDB.
+                Built a web application for account management and issue
+                tracking using React, Redux, Node/Express, and MongoDB.
               </li>
               <li>Developed notification and backup services with Node.js.</li>
               <li>
@@ -144,16 +127,8 @@ export default function Home() {
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                Developed an{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://rcbimx.web.app/"
-                  className="text-blue-600 hover:underline"
-                >
-                  on-site management system
-                </a>{' '}
-                using a NoSQL cloud database and OAuth 2.0 for authentication.
+                Developed an on-site management system using a NoSQL cloud
+                database and OAuth 2.0 for authentication.
               </li>
               <li>
                 Optimized steel structure members using clustering algorithms.
@@ -195,16 +170,9 @@ export default function Home() {
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://medium.com/@youran/704e60ffc5b7"
-                  className="text-blue-600 hover:underline"
-                >
-                  Gold Medal
-                </a>{' '}
-                in CSX 2003 Website Database Programming (used Azure, Node.js,
-                and Express.js to build a website and Chrome extension).
+                Gold Medal in CSX 2003 Website Database Programming (used Azure,
+                Node.js, and Express.js to build a website and Chrome
+                extension).
               </li>
             </ul>
           </div>
