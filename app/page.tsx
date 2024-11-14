@@ -26,34 +26,29 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="mb-4 text-2xl font-bold">Summary</h2>
           <p className="leading-relaxed">
-            Multi-talented software developer with 3+ years of experience in
-            web, desktop, and cloud-based infrastructure development. Proficient
-            in designing 3-tier architectures and renovating complex
-            applications. Skilled in a wide range of technologies and tools,
-            delivering high-quality software solutions.
+            Experienced Software Developer with 6+ years in web, desktop, and
+            cloud infrastructure development. Skilled in object-oriented design
+            and system modernization, delivering high-performance and scalable
+            solutions.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="mb-4 text-2xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-2 text-sm">
-            <span className="rounded bg-gray-200 px-2 py-1">JavaScript</span>
             <span className="rounded bg-gray-200 px-2 py-1">C++</span>
             <span className="rounded bg-gray-200 px-2 py-1">Python</span>
+            <span className="rounded bg-gray-200 px-2 py-1">TypeScript</span>
+            <span className="rounded bg-gray-200 px-2 py-1">RESTful APIs</span>
+            <span className="rounded bg-gray-200 px-2 py-1">GraphQL</span>
+            <span className="rounded bg-gray-200 px-2 py-1">Message Queue</span>
             <span className="rounded bg-gray-200 px-2 py-1">React</span>
             <span className="rounded bg-gray-200 px-2 py-1">Redux</span>
-            <span className="rounded bg-gray-200 px-2 py-1">Jest</span>
-            <span className="rounded bg-gray-200 px-2 py-1">Node</span>
+            <span className="rounded bg-gray-200 px-2 py-1">NestJS</span>
+            <span className="rounded bg-gray-200 px-2 py-1">TypeORM</span>
+            <span className="rounded bg-gray-200 px-2 py-1">PostgreSQL</span>
             <span className="rounded bg-gray-200 px-2 py-1">MongoDB</span>
             <span className="rounded bg-gray-200 px-2 py-1">AWS</span>
-            <span className="rounded bg-gray-200 px-2 py-1">Docker</span>
-            <span className="rounded bg-gray-200 px-2 py-1">
-              Azure Pipeline
-            </span>
-            <span className="rounded bg-gray-200 px-2 py-1">
-              GCP Vision API
-            </span>
-            <span className="rounded bg-gray-200 px-2 py-1">Firebase</span>
           </div>
         </section>
 
@@ -61,37 +56,46 @@ export default function Home() {
           <h2 className="mb-4 text-2xl font-bold">Experiences</h2>
 
           <div className="mb-6">
-            <h3 className="text-lg font-medium">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://building.rcad.com.tw/"
-                className="text-blue-600 hover:underline"
-              >
-                RCAD Inc.
-              </a>
-            </h3>
+            <h3 className="text-lg font-medium">4i Tech</h3>
             <div className="text-sm text-gray-600">
-              <div>Software Developer</div>
-              <div>Aug 2020 - Present</div>
+              <div>Backend Developer</div>
+              <div>Jun 2023 - Present</div>
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                Designed, developed, tested, and documented modules for 3D
-                applications using Visual C++, MFC, and OO Design Patterns.
+                Developed business process management tools for the media
+                industry using TypeScript, GraphQL, and PostgreSQL.
+              </li>
+              <li>Built scalable cloud infrastructure using AWS CDK.</li>
+              <li>
+                Enhanced service communication with BullMQ and Redis for
+                efficient queue management.
               </li>
               <li>
-                Reviewed papers and implemented algorithms to solve complex
-                problems.
+                Implemented role-based and claim-based authorization mechanisms.
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-medium">RCAD Inc.</h3>
+            <div className="text-sm text-gray-600">
+              <div>Software Developer</div>
+              <div>Aug 2020 - Jun 2023</div>
+            </div>
+            <ul className="mt-2 list-disc space-y-1 pl-5">
+              <li>
+                Designed and developed 3D application modules using Visual C++
+                and MFC, applying object-oriented design principles.
               </li>
               <li>
-                Developed a script to migrate from multi-byte to Unicode
-                applications.
+                Reviewed academic papers and implemented polygon partition
+                algorithms, achieving performance improvements surpassing
+                open-source solutions.
               </li>
-              <li>Managed GIT/TFS repositories and pipeline strategies.</li>
+              <li>Migrated applications from multi-byte to Unicode.</li>
               <li>
-                Developed and maintained integration test suites based on
-                functional specifications.
+                Developed comprehensive integration tests for legacy systems.
               </li>
             </ul>
           </div>
@@ -104,23 +108,29 @@ export default function Home() {
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                Built a web application for account management and issue
-                tracking using React, Redux, Node/Express, and MongoDB.
+                Created a full-featured member management system with React,
+                Redux, and MongoDB.
               </li>
-              <li>Developed notification and backup services with Node.js.</li>
               <li>
-                Migrated from a self-hosted Linux environment to AWS
-                auto-scaling infrastructure and multi-tenant architecture.
+                Developed and integrated multiple notification channels (email,
+                line).
               </li>
-              <li>Managed infrastructure provisioning with AWS services.</li>
               <li>
-                Created a structure plan vision system using PyTorch and GCP
-                Vision API.
+                Led the migration from a self-hosted Linux environment to an AWS
+                auto-scaling infrastructure.
+              </li>
+              <li>
+                Implemented a multi-tenant architecture to support multiple
+                clients within the infrastructure.
+              </li>
+              <li>
+                Integrated GCP Vision API with PyTorch for visual analytics.
               </li>
             </ul>
           </div>
 
           <div>
+            <h3 className="text-lg font-medium">Elements Structure Inc.</h3>
             <div className="text-sm text-gray-600">
               <div>Full Stack Web Developer (Internship)</div>
               <div>Jun 2016 - Jul 2019</div>
@@ -134,10 +144,11 @@ export default function Home() {
                 Optimized steel structure members using clustering algorithms.
               </li>
               <li>
-                Designed SRC using Newton&apos;s method and slide algorithm.
+                Designed SRC using Newton&apos;s method and a slide algorithm.
               </li>
               <li>
-                Optimized the angle radius, increasing speed by 400 times.
+                Optimized angle radius calculations, increasing speed by 400
+                times.
               </li>
             </ul>
           </div>
@@ -155,10 +166,9 @@ export default function Home() {
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Thesis: &quot;Feasibility of Beam Reinforcement Optimization for
-                Practical Application&quot;
+                Practical Application&quot; - developed algorithms for
+                structural optimization.
               </li>
-              <li>Developed an algorithm to optimize beam reinforcement.</li>
-              <li>Developed a GUI written in Python.</li>
             </ul>
           </div>
 
@@ -170,9 +180,9 @@ export default function Home() {
             </div>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
-                Gold Medal in CSX 2003 Website Database Programming (used Azure,
-                Node.js, and Express.js to build a website and Chrome
-                extension).
+                Awarded Gold Medal in CSX 2003 Website Database Programming
+                (used Azure, Node.js, and Express.js to build a website and
+                Chrome extension).
               </li>
             </ul>
           </div>
@@ -201,8 +211,8 @@ export default function Home() {
               >
                 js-jsx-snippets
               </a>
-              : Built a VSCode extension for React/Redux in JS with Babel and
-              ES7 syntax, with over 0.5 million downloads.
+              : Built a VSCode extension for React/Redux in JavaScript with
+              Babel and ES7 syntax, achieving over 1M downloads.
             </li>
           </ul>
         </section>
